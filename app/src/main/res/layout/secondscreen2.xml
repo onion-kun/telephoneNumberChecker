@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/enterNumberText"
+        android:name="enterNumberText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Entered phonenumber:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/enterNumberTextValue"
+        android:name="enterNumberTextValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/validNumberText"
+        android:name="enterNumberTextValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_invalid"
+        android:textColor="@color/red23"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Region code for this number:" />
+
+    <TextView
+        android:id="@+id/regionCodeText"
+        android:name="tvText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No region code found"
+        android:textColor="@color/darkpurple"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCancel"
+        android:onClick="onClick" />
+</LinearLayout>

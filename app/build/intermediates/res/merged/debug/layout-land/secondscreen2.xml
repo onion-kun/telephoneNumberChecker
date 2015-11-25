@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="This is the Second Screen - Landscape!" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:text="Data passed through:" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:name="tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="none"
+        android:textColor="@color/green"
+        android:textSize="44sp" />
+
+    <TextView
+        android:name="tvTextDestroyed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:text="Extra Info to right as in Horizontal Mode. 
+        ...Could use Fragments!..."
+        android:textColor="@color/blue"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvText"
+        android:layout_marginTop="74dp"
+        android:hint="hint here"
+        android:onClick="onClick"
+        android:text="@string/btnCancel" />
+
+</RelativeLayout><!-- From: file:/C:/Users/davinator/Desktop/Applications%20for%20mobile%20devices/WS2-HelloWorld2/app/src/main/res/layout-land/secondscreen2.xml -->

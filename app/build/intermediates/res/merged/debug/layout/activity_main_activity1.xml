@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:name="editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Here"
+        android:inputType="phone"
+        android:textColor="@color/orange">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText"
+        android:onClick="onClick" />
+
+</LinearLayout><!-- From: file:/C:/Users/davinator/Desktop/Applications%20for%20mobile%20devices/WS2-HelloWorld2/app/src/main/res/layout/activity_main_activity1.xml -->

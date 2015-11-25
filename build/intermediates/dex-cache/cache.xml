@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\davinator\Desktop\Applications for mobile devices\WS2-HelloWorld2\app\src\main\libs\libphonenumber-7.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91b21f6fa0b639b8d71cce29b7e9109347d93919">
+        <dex dex="C:\Users\davinator\Desktop\Applications for mobile devices\WS2-HelloWorld2\app\build\intermediates\pre-dexed\debug\libphonenumber-7.2.1-dc582bda24a1e05275521e2cfd527e38151eb0f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\davinator\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\davinator\Desktop\Applications for mobile devices\WS2-HelloWorld2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-9420041e4b1d9839b6a5ac40f2f96c201c8df9b6.jar" />
+    </item>
+
+</items>
